@@ -10,6 +10,9 @@ class clicker : public QMainWindow
 public:
     clicker(QWidget *parent = Q_NULLPTR);
 
+private slots:
+	void buttonClicked();
+
 private:
     Ui::clickerClass ui;
 };
